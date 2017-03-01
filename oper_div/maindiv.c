@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
 	float num2;
 	float oper;
 	
-//	printf("\nOPERACAO DE DIVISAO\n");
+	printf("\nOPERACAO DE DIVISAO\n");
 	
 	printf("\nDigite um numero real: ");
 	scanf("%f", &num1);
