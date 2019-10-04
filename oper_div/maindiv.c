@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Estudo em C, basta trocar o sinal para testar outras operaçoes 
+//Estudo em C, basta trocar o sinal para testar outras operaÃ§oes 
 
 int main(int argc, char *argv[]) {
 
@@ -17,6 +17,12 @@ int main(int argc, char *argv[]) {
 	printf("Digite outro numero real: ");
 	scanf("%f", &num2);
 
+	//caso o segundo numero seja 0
+	if (!num2) {
+		printf("\nInfinito.\n");
+		return 0;
+	}
+	
 	oper=num1/num2;
 
 	printf("\nO resultado da operacao e: %f.2f\n", oper);
